@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Source Code Pro", monospace;
+}
+
+/* Width and track color for all browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+/* Thumb color and border-radius for all browsers */
+::-webkit-scrollbar-thumb {
+  background: rgb(26, 26, 65);
+  border-radius: 4px;
+}
+
+/* Thumb color on hover for all browsers */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(35, 35, 85);
+}
+
+/* Width and track color for Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(26, 26, 65) #000; /* thumb color and track color */
+}
+
+/* Thumb color for Firefox */
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(26, 26, 65);
+}
+
+/* Thumb color on hover for Firefox */
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(35, 35, 85);
+}
