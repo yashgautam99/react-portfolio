@@ -72,7 +72,7 @@ export const PROJECTS = [
     url: "https://yashgautamportfolio.netlify.app",
   },
   {
-    title: "Movie Suggestion",
+    title: "Expense-Tracker",
     image: project3,
     description:
       "The Expense Tracker web app, built with React.js and Firebase, offers a fully functional and intuitive interface for managing expenses. It features Google Sign-In for seamless authentication and a great UI for a smooth user experience.",
