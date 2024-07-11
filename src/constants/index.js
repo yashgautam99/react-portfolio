@@ -1,6 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/movie.png";
+import project3 from "../assets/projects/project3.png";
 
 export const HERO_CONTENT = `As a dedicated full stack developer, I possess a keen aptitude for architecting resilient and scalable web applications. My proficiency spans across a spectrum of front-end technologies, encompassing the ReactJS library, Tailwind CSS, HTML, and JavaScript, complemented by a robust command of back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. My overarching objective is to harness this expertise to engineer innovative solutions that not only propel business expansion but also ensure unparalleled user satisfaction.`;
 
@@ -75,9 +75,9 @@ export const PROJECTS = [
     title: "Movie Suggestion",
     image: project3,
     description:
-      "The Movie Suggestion project, built with React and Bootstrap, provides a user-friendly interface for discovering movies. Using the OMDB API, users can search for movies and view detailed information directly in their browser. The project features a clean, responsive design for smooth interaction across devices, showcasing modern web development principles while offering an enjoyable movie exploration experience.",
-    technologies: ["HTML", "CSS", "Javascript"],
-    url: "https://moviessuggestion.netlify.app/",
+      "The Expense Tracker web app, built with React.js and Firebase, offers a fully functional and intuitive interface for managing expenses. It features Google Sign-In for seamless authentication and a great UI for a smooth user experience.",
+    technologies: ["reactjs", "firebase"],
+    url: "https://expense-ca5f6.web.app/",
   },
 ];
 
