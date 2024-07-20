@@ -64,12 +64,12 @@ export const PROJECTS = [
     url: "https://keycrafted.netlify.app",
   },
   {
-    title: "Old Portfolio Website",
+    title: "Chat App",
     image: project2,
     description:
-      "The previous version of my portfolio website was crafted using HTML, vanilla CSS, and JavaScript. It served as a digital showcase of my professional journey, featuring details about my skills, projects, and experiences. The website's design was clean and minimalist, with an emphasis on user experience. Visitors could navigate through different sections to learn more about my background, view my portfolio of projects, and get in touch with me. Although functional, I recognized the need to enhance the website's aesthetics and functionality to better reflect my evolving skills and aspirations.",
+      "The current version of my chat application is built using the MERN stack, comprising MongoDB for the database, Express for routing, React for the frontend, and Node.js for the backend. To enhance the user experience, I've integrated Daisy UI for beautifully designed UI components and Zustand for efficient state management. This combination ensures a seamless, visually appealing, and highly functional chat application.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    url: "https://yashgautamportfolio.netlify.app",
+    url: "https://talkhub-5k1a.onrender.com",
   },
   {
     title: "Expense-Tracker",
