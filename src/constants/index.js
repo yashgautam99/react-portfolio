@@ -68,7 +68,14 @@ export const PROJECTS = [
     image: project2,
     description:
       "The current version of my chat application is built using the MERN stack, comprising MongoDB for the database, Express for routing, React for the frontend, and Node.js for the backend. To enhance the user experience, I've integrated Daisy UI for beautifully designed UI components and Zustand for efficient state management. This combination ensures a seamless, visually appealing, and highly functional chat application.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: [
+      "Reactjs",
+      "Mongodb",
+      "Nodejs",
+      "Expressjs",
+      "Tailwind css",
+      "Daisy UI",
+    ],
     url: "https://talkhub-5k1a.onrender.com",
   },
   {
