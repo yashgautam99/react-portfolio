@@ -75,6 +75,7 @@ export const PROJECTS = [
       "Expressjs",
       "Tailwind css",
       "Daisy UI",
+      "Zustand",
     ],
     url: "https://talkhub-5k1a.onrender.com",
   },
