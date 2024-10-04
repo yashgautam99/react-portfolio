@@ -85,15 +85,17 @@ export const PROJECTS = [
     image: project4,
     description:
       "Inkflow is a full-featured blog application built using the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to provide a seamless and engaging writing experience. The app leverages Flowbite for responsive and modern UI components, creating a clean and professional interface. Redux Toolkit is used for efficient state management, ensuring smooth interactions throughout the platform. Firebase handles storage, allowing for secure file uploads and management, while Google authentication provides an additional layer of security for users. Inkflow allows users to create, manage, and explore content effortlessly, all while maintaining high performance and user-centric design.",
-    technologies: ["React.js",
+    technologies: [
+      "React.js",
       "Flowbite",
       "Express.js",
       "Node.js",
       "MongoDB",
       "Redux Toolkit",
       "Firebase (storage)",
-      "JavaScript"
-      "Tailwind CSS"],
+      "JavaScript",
+      "Tailwind CSS",
+    ],
     url: "https://mern-blog-application-tskq.onrender.com",
   },
   {
