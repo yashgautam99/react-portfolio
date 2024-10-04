@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.png";
+import project4 from "../assets/projects/project4.jpg";
 
 export const HERO_CONTENT = `As a dedicated full stack developer, I possess a keen aptitude for architecting resilient and scalable web applications. My proficiency spans across a spectrum of front-end technologies, encompassing the ReactJS library, Tailwind CSS, HTML, and JavaScript, complemented by a robust command of back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. My overarching objective is to harness this expertise to engineer innovative solutions that not only propel business expansion but also ensure unparalleled user satisfaction.`;
 
@@ -78,6 +79,22 @@ export const PROJECTS = [
       "Zustand",
     ],
     url: "https://talkhub-5k1a.onrender.com",
+  },
+  {
+    title: "Blog Application(InkFlow)",
+    image: project4,
+    description:
+      "Inkflow is a full-featured blog application built using the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to provide a seamless and engaging writing experience. The app leverages Flowbite for responsive and modern UI components, creating a clean and professional interface. Redux Toolkit is used for efficient state management, ensuring smooth interactions throughout the platform. Firebase handles storage, allowing for secure file uploads and management, while Google authentication provides an additional layer of security for users. Inkflow allows users to create, manage, and explore content effortlessly, all while maintaining high performance and user-centric design.",
+    technologies: ["React.js",
+      "Flowbite",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "Redux Toolkit",
+      "Firebase (storage)",
+      "JavaScript"
+      "Tailwind CSS"],
+    url: "https://mern-blog-application-tskq.onrender.com",
   },
   {
     title: "Expense-Tracker",
