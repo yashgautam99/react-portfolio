@@ -49,7 +49,7 @@ export default function Project() {
               </h6>
 
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              <div className="flex justify-center lg:justify-start">
+              <div className="flex justify-center lg:justify-start flex-wrap max-w-[100%]">
                 {project.technologies.map((technique, index) => (
                   <span
                     key={index}

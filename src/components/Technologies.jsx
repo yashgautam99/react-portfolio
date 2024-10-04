@@ -12,6 +12,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { BiLogoFigma } from "react-icons/bi";
 import { RiJavaLine } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
+import { RiFirebaseFill } from "react-icons/ri";
 
 import { motion } from "framer-motion";
 
@@ -197,6 +198,17 @@ function Technologies() {
             <RiJavaLine className="text-6xl text-red-700" />
           </motion.div>
           <p className="mt-4 text-lg font-semibold">Java</p>
+        </div>
+        <div className="text-center">
+          <motion.div
+            variants={iconVariant(5.4)}
+            initial="initial"
+            animate="animate"
+            className="bg-gray-800 rounded-xl border-4 border-neutral-800 p-4 flex justify-center items-center"
+          >
+            <RiFirebaseFill className="text-6xl text-yellow-300" />
+          </motion.div>
+          <p className="mt-4 text-lg font-semibold">Firebase</p>
         </div>
       </motion.div>
     </div>
