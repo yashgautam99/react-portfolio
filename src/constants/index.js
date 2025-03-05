@@ -71,6 +71,7 @@ export const PROJECTS = [
       "Gemini AI",
       "Neon DB",
       "Tailwind CSS",
+      "ShadCn",
     ],
     url: "https://airesume-jx8a.onrender.com",
   },
