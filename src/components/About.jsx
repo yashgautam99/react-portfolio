@@ -1,6 +1,9 @@
 import yashmemoji from "../assets/yashmemoji.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+
+// Inside another component
+
 function About() {
   return (
     <div className="border-b border-neutral-900 pb-4">

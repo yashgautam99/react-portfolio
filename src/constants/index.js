@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.png";
 import project4 from "../assets/projects/project4.jpg";
+import project5 from "../assets/projects/project5.png";
 
 export const HERO_CONTENT = `As a dedicated full stack developer, I possess a keen aptitude for architecting resilient and scalable web applications. My proficiency spans across a spectrum of front-end technologies, encompassing the ReactJS library, Tailwind CSS, HTML, and JavaScript, complemented by a robust command of back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. My overarching objective is to harness this expertise to engineer innovative solutions that not only propel business expansion but also ensure unparalleled user satisfaction.`;
 
@@ -56,6 +57,23 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "AI Resume Coach",
+    image: project5,
+    description:
+      "Echo-AI is an AI-powered career coach web application built with Next.js, featuring Tailwind CSS, Prisma, Inngest, Neon Database, ShadCN, and the Gemini API. It provides personalized career guidance, resume analysis, and job recommendations. Designed for seamless user experience, it leverages AI to enhance career growth efficiently",
+    technologies: [
+      "Nextjs",
+      "Reactjs",
+      "Prisma",
+      "inggest",
+      "Clerk",
+      "Gemini AI",
+      "Neon DB",
+      "Tailwind CSS",
+    ],
+    url: "https://airesume-jx8a.onrender.com",
+  },
   {
     title: "Password Generator",
     image: project1,
